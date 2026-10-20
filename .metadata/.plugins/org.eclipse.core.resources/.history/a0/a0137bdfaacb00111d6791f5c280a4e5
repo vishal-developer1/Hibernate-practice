@@ -1,0 +1,25 @@
+package com.vp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.operations.config.HibernateConfig;
+import com.operations.entity.Student;
+
+public class InsertStudent {
+
+    public static void main(String[] args) {
+
+        SessionFactory sf = HibernateConfig.getSessionFactory();
+        
+        Session session = sf.openSession();
+        
+        Student s = new Student(2, "demo", 22);
+        
+        session.save(s);
+        session.beginTransaction().commit();
+        
+        System.out.println("Student inserted successfully!");		
+
+    }
+}

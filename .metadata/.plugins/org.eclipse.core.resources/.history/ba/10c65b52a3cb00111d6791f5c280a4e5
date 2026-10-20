@@ -1,0 +1,24 @@
+package com.vp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class SaveEmp {
+
+	public static void main(String[] args) {
+
+		SessionFactory sf = HibernateConfig.getSessionFactory();
+		
+		Session Session = sf.openSession();
+		
+		Employee employee=new Employee(1, "vishal", 25000, "IT");
+		
+		Session.save(Session);
+		
+		
+		
+		
+		
+	}
+
+}

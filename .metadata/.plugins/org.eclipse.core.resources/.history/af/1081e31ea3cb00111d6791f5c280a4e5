@@ -1,0 +1,15 @@
+package com.vp;
+
+import org.hibernate.SessionFactory;
+
+public class SaveEmp {
+
+	public static void main(String[] args) {
+
+		SessionFactory sf = HibernateConfig.getSessionFactory();
+		
+		
+		
+	}
+
+}

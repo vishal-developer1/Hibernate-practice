@@ -1,0 +1,23 @@
+package com.vp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.operations.config.HibernateConfig;
+import com.operations.entity.Student;
+
+public class FetchStudent {
+
+	public static void main(String[] args) {
+
+
+        SessionFactory sf = HibernateConfig.getSessionFactory();
+        
+        Session session = sf.openSession();
+        
+        Student s = session.get(Student.class, 2);
+        
+        System.out.println(s);
+	}
+
+}

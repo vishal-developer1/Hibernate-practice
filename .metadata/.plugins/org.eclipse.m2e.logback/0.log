@@ -1,0 +1,848 @@
+2026-10-19 14:29:06,706 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-10-19 14:34:20,929 [Worker-1: Creating project "FirstApp"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:FirstApp:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\FirstApp\pom.xml.
+2026-10-19 14:34:25,221 [Worker-1: Creating project "FirstApp"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstApp/src/main/java
+2026-10-19 14:34:25,226 [Worker-1: Creating project "FirstApp"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FirstApp/src/main/resources
+2026-10-19 14:34:25,229 [Worker-1: Creating project "FirstApp"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstApp/src/test/java
+2026-10-19 14:34:25,230 [Worker-1: Creating project "FirstApp"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FirstApp/src/test/resources
+2026-10-19 14:34:27,683 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:34:27,692 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:34:27,700 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:34:27,703 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:36:16,395 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:FirstApp:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\FirstApp\pom.xml.
+2026-10-19 14:36:17,266 [Worker-20: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=MCNw.69debnpgy3V_wjz_lWUsxbOrxrlQGebSIQ_EeY-1792400776.9372406-1.0.1.1-kbbQsSeIymRQgtUNbkE8TmkmELnR.q8tZ7J8WPF59SrQCZOaKryUBvNniUenkm_7kdhwavSspqlOTsiBs3mTfES.qQBfPer.J2HfHOIp94jIwMMtNWFNn.XKiiw6UCit; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:36:16 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:36:16 GMT
+2026-10-19 14:36:17,272 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.15.Final/hibernate-core-6.6.15.Final.pom
+2026-10-19 14:36:17,328 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.15.Final/hibernate-core-6.6.15.Final.pom
+2026-10-19 14:36:18,295 [Worker-20: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=G4RCg3TLFbQja97dCmUAnVFDJQJd4NyJj6LkMNJH07Q-1792400777.9973803-1.0.1.1-z1gSDx0BkkupvMErPODnb7kWTYa0J6vvvM.RLmsPF8F74lmCKaNwFpuzhc8wA03Ia1P.lNdJ9x9YwqLE8di97OcMciEVi7.jTUURAihG0Maz_yVAWjjO9jocxcQk6mab; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:36:18 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:36:18 GMT
+2026-10-19 14:36:18,297 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.15.Final/hibernate-core-6.6.15.Final.jar
+2026-10-19 14:36:20,305 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.15.Final/hibernate-core-6.6.15.Final.jar
+2026-10-19 14:36:21,662 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:36:21,669 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:36:21,681 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:36:21,686 [Worker-19: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=EZlx3vwreYqhEdVq8t83Gfo0orJvyjA5Z7B_SCkv8rM-1792400781.3775826-1.0.1.1-JFMdcWhzx8iN1SVTM.v_JeEOr_Y7hDn6yEBnmtqNzd9UwwCca2FSuhxLMhh7YEf3HFMD35OrXS4.hd7cmM8ICEVRacGPKk9MkShHaxrV29H2c3Ka82t7kNUQQ9jteNqC; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:36:21 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:36:21 GMT
+2026-10-19 14:36:21,689 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.15.Final/hibernate-core-6.6.15.Final-sources.jar
+2026-10-19 14:36:21,692 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:36:23,153 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.15.Final/hibernate-core-6.6.15.Final-sources.jar
+2026-10-19 14:36:23,164 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.orm:hibernate-core:6.6.15.Final
+2026-10-19 14:36:23,633 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:36:23,635 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:36:23,643 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:36:23,645 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:37:05,322 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:FirstApp:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\FirstApp\pom.xml.
+2026-10-19 14:37:05,867 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:37:05,871 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:37:05,877 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:37:05,879 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:37:07,341 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:37:07,344 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:37:07,353 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:37:07,357 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:37:54,246 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:37:54,304 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:37:54,310 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:37:54,323 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:39:15,001 [Worker-21: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:39:15,003 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:39:15,015 [Worker-21: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:39:15,016 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:39:44,235 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:39:44,238 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:39:44,256 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:39:44,261 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:40:04,966 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:40:04,967 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:40:04,971 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:40:04,972 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:40:52,460 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:40:52,462 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:40:52,480 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:40:52,482 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:41:44,595 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:41:44,597 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:41:44,621 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:41:44,622 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:42:39,536 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:42:39,538 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:42:39,547 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:42:39,549 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:43:29,034 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:43:29,039 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:43:29,048 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:43:29,050 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:44:24,168 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:44:24,171 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:44:24,176 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:44:24,178 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:48:28,469 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:48:28,472 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:48:28,478 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:48:28,480 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:48:57,464 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:48:57,483 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:48:57,503 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:48:57,505 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:53:35,815 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:53:35,818 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:53:35,821 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:53:35,823 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:54:15,892 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:FirstApp:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\FirstApp\pom.xml.
+2026-10-19 14:54:16,424 [Worker-26: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=VXTPDpQ7E4gGFCTRRqvlVODY2d_l9MVYpokbndSoFQs-1792401855.8411117-1.0.1.1-lXEPZDVqwjA1W3XHj78JiaJh6ZOOyTSKhoG3dLt0K4fk8zpXD8PQy_azSx0As9KHCt4da6MtwzehqVfTMKh47btxcCorQCry2eUadWK6N2Dj_eZ7y8zxT3PH.BWbj4vN; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:54:15 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:54:15 GMT
+2026-10-19 14:54:16,426 [Worker-26: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.pom
+2026-10-19 14:54:16,431 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.hibernate.orm:hibernate-core:jar:5.6.15.Final is missing, no dependency information available
+2026-10-19 14:54:16,637 [Worker-26: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=wvB9Nt7sb4kbOLBWXKC39obORtB3O0Ud8cXUdk9U.i8-1792401856.2365324-1.0.1.1-mwoguCWuyVgS5F200XGcD3444.eXBJ8npum4.AibjzLZmuwm3u6hVEQavFeOp0sTp4SOy83uM84C0kfowbnTWY0EKiWGL71RmPyOcXTOkrl_GSc4xR9LG9BCJ1qRj9ji; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:54:16 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:54:16 GMT
+2026-10-19 14:54:16,638 [Worker-26: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar
+2026-10-19 14:54:16,878 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:54:16,881 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:54:16,885 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:54:16,887 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:54:18,185 [Worker-27: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=9sxxTkKYo1yRGxFVg_YsL5xK39laSbrZ_Hnd6WxewZI-1792401857.591062-1.0.1.1-PcuW3pHy_JGT2yC_rowu0mzTiQdrS.pYhwUZ.92TYIaV.fwSnohUStcZAvC8plNh6GpUB9ZyweNvOC52Md4EJUl9x58enZZUfquPzJTe18R94jkE8uLYjbbetMySH2yj; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:54:17 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:54:17 GMT
+2026-10-19 14:54:18,188 [Worker-27: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final-sources.jar
+2026-10-19 14:54:18,202 [Worker-27: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.hibernate.orm:hibernate-core:5.6.15.Final
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.hibernate.orm:hibernate-core:jar:sources:5.6.15.Final
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-10-19 14:55:55,936 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:FirstApp:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\FirstApp\pom.xml.
+2026-10-19 14:55:56,547 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=4ulSFLvBsB.vPie7GM3R0ToIn_3i0QQCDgLQlLQ8scU-1792401956.138528-1.0.1.1-TRDbfO_NOd65BEUP4plmega9JTghk3JllmyJ0fbW3KaHYnSbmL7hteGN7ycEMg9pB.Qw7_ppV8O4M3acUTx0P0XzAg_F5eAEOg.WBCUDn3WcRGdEy3P3wMhjO4kKLo6T; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:55:56 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:55:56 GMT
+2026-10-19 14:55:56,552 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.2.12.Final/hibernate-core-6.2.12.Final.pom
+2026-10-19 14:55:56,601 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.2.12.Final/hibernate-core-6.2.12.Final.pom
+2026-10-19 14:55:56,869 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=fbEj_rlzZVUVh2oXSk_awaQchz2SRBggHEyQz5UJqDQ-1792401956.548277-1.0.1.1-BUHRgy9wylx9jUHYaUtF1dpju1Si2mD0pQewTF9FrbRbMEUpbx2YxSgkBYuOEntmEXwHEF4kEWMP5jtpoSnhTaHn5WhF4_XAW5DSSv.6fys4V7IG149vYHh.MlOKEhGm; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:55:56 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:55:56 GMT
+2026-10-19 14:55:56,872 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7.pom
+2026-10-19 14:55:56,928 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7.pom
+2026-10-19 14:55:57,040 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=.T1cIbe.4o88b473oJEV3ZJGYT_kzn0olSiMdiL.lco-1792401956.7085807-1.0.1.1-4_x_MjhjV63pcgfSnIW56WbYEmagIHbUQ4tI2fCdoT6KKedErMSmCFpOnJTcBcUfH0T03P4d8qE5qOXMisYynQ3Fs8jQ4.loQLybRxHxd0.J1irbsxqd_B8lkmTGRjII; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:55:56 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:55:56 GMT
+2026-10-19 14:55:57,043 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.7/byte-buddy-parent-1.14.7.pom
+2026-10-19 14:55:57,106 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.7/byte-buddy-parent-1.14.7.pom
+2026-10-19 14:55:57,617 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=PlLILupTwkAtWNKEm27uK.xq0BKu2DAxoPTfn.5t2Lo-1792401957.211765-1.0.1.1-zzS2wIuUtoc3dcl1Jo2DXM3kE6Xhy1mJIKISUNIYFU.GSjZ.KqvGvV8eXMVSFbYpXEdFG1cy1g221hrrCETa7.EdYjF5K368XOCxrD2C1Ews.xCQsBUC6cqfqixn.bIz; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:55:57 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:55:57 GMT
+2026-10-19 14:55:57,619 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.2.12.Final/hibernate-core-6.2.12.Final.jar
+2026-10-19 14:55:59,500 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.2.12.Final/hibernate-core-6.2.12.Final.jar
+2026-10-19 14:55:59,575 [BasicRepositoryConnector-repo.maven.apache.org-0-0] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=YawRqK4jl1irBKQoUCCJkYOJ4JPa_28UUvSVxmnJGSA-1792401959.2578058-1.0.1.1-UH9VgFII3uzI4LIvb83Nhma95b63rIdn2wqjVR2Vmvun7XFiEoWM4fbfa4XQIW8BgrzUtGs7rZklC1s_WkdAvTOtWjqqJBhfBayINZlLOtFP5jnmYSWh4ZFfoBZanhhA; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:55:59 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:55:59 GMT
+2026-10-19 14:55:59,578 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7.jar
+2026-10-19 14:56:00,248 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7.jar
+2026-10-19 14:56:00,614 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:56:00,619 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:56:00,625 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:56:00,628 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:56:01,570 [Worker-31: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=yrhsUD47htL5OHMeskv7jaVb8yYR1xcxF6PrkNIyPRw-1792401961.2135484-1.0.1.1-TxLqOoScBoeshLcoAIQQYCAjOMkFfBj09ydKGAZ0lhhfpU8_mmeBTk09PNaq4kOXogzeCuMNh2b3BOr.KVdc9Ix2D2sJcGpNMKQ1jwxW2.EJwscDTOch9ZtlOiQUH5Eb; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:56:01 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:56:01 GMT
+2026-10-19 14:56:01,573 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.2.12.Final/hibernate-core-6.2.12.Final-sources.jar
+2026-10-19 14:56:02,418 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:56:02,419 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:56:02,436 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:56:02,438 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:56:02,915 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.2.12.Final/hibernate-core-6.2.12.Final-sources.jar
+2026-10-19 14:56:02,927 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.orm:hibernate-core:6.2.12.Final
+2026-10-19 14:56:03,168 [Worker-31: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=U.Z2QsR_1bOad5N.C8zfDSGa98Ww_FzaSqrF7iqMP3w-1792401962.847562-1.0.1.1-Lbda4R2.PtxDQ_7F1t83g7ccsvKS2MO3kc4fK_pc4ad0iybI3BwScdNFyw2fGVxNchHMSWR._8mC669BfWDp_QJ9T8ARUpo27yONDTy5DnWegcsK9Bqdm3SD.yhZR_EB; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:56:02 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:56:02 GMT
+2026-10-19 14:56:03,172 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7-sources.jar
+2026-10-19 14:56:03,582 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7-sources.jar
+2026-10-19 14:56:03,590 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.14.7
+2026-10-19 14:57:10,415 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:FirstApp:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\FirstApp\pom.xml.
+2026-10-19 14:57:10,809 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=iM1YJqD804XGy.zoZ9C9QNxLbxl9ta6DwPKLwxz3dZ8-1792402030.5128603-1.0.1.1-92koKTW2KnfMKSqfnkEfWO7KTa7sMwKFcEqlwD8_2PiagvHCy4lbJbUcpQRbWGOJ_dyLFz2smPV4uU94ARPIKOk2uqCoPk2wVP45OBhYgeP4mFwQdWvOblC9.JDaCeV4; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:10 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:10 GMT
+2026-10-19 14:57:10,813 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.pom
+2026-10-19 14:57:10,853 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.pom
+2026-10-19 14:57:10,966 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=GCajlQUOLgUMBHCvlBwAGzq68HMvWloZ5XFj5QZNS94-1792402030.6614842-1.0.1.1-FA_4LRokyDNUsBl5cK56_Be.rNMDK61hM7Doab8wEA1.oHjyko_W2cxug_nFlu.MF96N6P5J1v_hdlVIgScDf5JoZC0glwQRcLefVKrpxrE8pY.lKTXSnFngmWJCqXgS; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:10 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:10 GMT
+2026-10-19 14:57:10,969 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.pom
+2026-10-19 14:57:11,014 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.pom
+2026-10-19 14:57:11,226 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=ZhMQywc9JnQ099J0wWe91FLUuVIPpfjFIWS6m0VTDKo-1792402030.832353-1.0.1.1-Kp3zlsm_CgzFQGzn3hjzWVCs2dPONzv29xngeBEflUccal0h2eR9.EMY7y6YIJvWpA2kOtVIUz2hZRoNahiraDBMpFQgLwcR1nmqdv6DDwlj7T5QW_hifkM3BYD2n4SR; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:10 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:10 GMT
+2026-10-19 14:57:11,228 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.pom
+2026-10-19 14:57:11,289 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.pom
+2026-10-19 14:57:11,410 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=vJRejVHrq3KDU8Tbv9GKl_31XHyRcqoO24v7Xiw5AaQ-1792402031.108106-1.0.1.1-.ZVAKEr.QfrBGs0FATZeDSELuFPNWGJjZdBr7D3QXS3ivEmRh.cLRRtqMRdGGHx0aw0quZUcI1b93m4byuSbh3P7nNw6c6Kpk9XoH0IGiYjrBkAZe.Pbmbam4Yrto5iZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:11 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:11 GMT
+2026-10-19 14:57:11,413 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2026-10-19 14:57:11,469 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2026-10-19 14:57:11,600 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=mpbMdebk.L8oj9LrsyxjecqI68Tg28qILbPS73i1cDA-1792402031.2922914-1.0.1.1-oitDEqTmVoHi1KpLrGIGU513oHM2MgMefS.QJo6koMHnNP1YqSBBFb4892hlyriqWIu9eGa_uo3d0w7e478V6S4Igq5EwKxCj91uBQIbJyn_b5HrSJu1b_tSx0vZUSVJ; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:11 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:11 GMT
+2026-10-19 14:57:11,603 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.pom
+2026-10-19 14:57:11,649 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.pom
+2026-10-19 14:57:11,776 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=E3w.5eDpoYYN3leYQJVKvWyWX418phVGzgr9Ms8WIVc-1792402031.4705527-1.0.1.1-g7uHd3VWNMyUvE458Lsxt54Vo2wM5Pn6PsLGK2nzWr7VTmEz4q0klVR5kdhn3HYuq_c.iPegpQTrl9aW3DRaiPlA51M0CPnJuUtHS4ThJp75YqGzhogRIGxn2NdOzY62; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:11 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:11 GMT
+2026-10-19 14:57:11,779 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.18/byte-buddy-parent-1.12.18.pom
+2026-10-19 14:57:11,830 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.18/byte-buddy-parent-1.12.18.pom
+2026-10-19 14:57:11,966 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=FoX6dk62hKIJG1L4pEH9YHzBQ4SEYThvRhs9169Jwlk-1792402031.6562562-1.0.1.1-7.Qniw9.FcEqV_uis1pqQjwEMQ7y748uHXBWcWyMLrHyhL9sGs01RpqaT9JB4vpuyGcP5MYJV.JDPfyUGYv318pxGd5svkinbz0HNS.qrBmjvFTEaozqjGCP7BCdKrZO; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:11 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:11 GMT
+2026-10-19 14:57:11,969 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.pom
+2026-10-19 14:57:12,015 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.pom
+2026-10-19 14:57:12,108 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=JH1clvEoZHwZ6frazFRhxxrMYPVoS77c96A7e_f48k8-1792402031.807816-1.0.1.1-wVI5HUPlMEC.msPAQ.2C9lxjShonlg3sw8ukD68e5eK5FZrfaWRcrji2Xl7w0HKpYTBl0wgsvqdW6jnf0c1iMfPDgA0TW3.T4oZdkd31b0nhFqitRCYs9e4TY5iQQ48M; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:11 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:11 GMT
+2026-10-19 14:57:12,110 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/25/jboss-parent-25.pom
+2026-10-19 14:57:12,167 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/25/jboss-parent-25.pom
+2026-10-19 14:57:12,270 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=np4qaS_Dwxn3CbBWpbX3k_41KqPRKyCr67T6cuxAZF0-1792402031.9765422-1.0.1.1-naEM9MS5ro_mq7MYPdH9F0tJfura6hd_TLPQ14_bos8JB6YArEgzl7FB3WWT85y5HnkdFZkMOMCqHj1d2XK8Qiu4TA4eV3ViJHXkjZe.r2Ui6bnO0vbQVemw2O7hmqok; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:11 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:11 GMT
+2026-10-19 14:57:12,273 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.pom
+2026-10-19 14:57:12,308 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.pom
+2026-10-19 14:57:12,409 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=zBpQtrHCsoi_PmDIuRS_a0eDiRfDkQIR.bId9dNWDlw-1792402032.11585-1.0.1.1-0jKXFl.kB8iRg74riT0fLHfxYJgTtCjnsSSct3c.E.ijpJM_AIDniM6kbXN6_KZ.o6r3lKZOf3Q7.tP1CPNsHnIFbPRxFYdICJnz9Q0aoSaN58uo1ml_b8kK22qtKxup; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:12 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:12 GMT
+2026-10-19 14:57:12,412 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom
+2026-10-19 14:57:12,467 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom
+2026-10-19 14:57:12,565 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=JWo6Xg6WO3x8JwS.pInhBv_kS5KHAO3tSi9l.4Kvm3E-1792402032.2660542-1.0.1.1-ejOSl6Au.Tz.4rUfuZsViWzIWvFTLb1ks5X_OHabl7swwu.kFCYRv5xQJQzSPEOpG5bf43FxFxNTPPb3P_Nywk6WCw1FSLp3rkbNVEoAWq1e6nbAT1_7cTmGkp708S5g; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:12 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:12 GMT
+2026-10-19 14:57:12,568 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.0/all-1.2.0.pom
+2026-10-19 14:57:12,625 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.0/all-1.2.0.pom
+2026-10-19 14:57:12,728 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=YDC79bb0yZ.0Tt8Cwt0TtA8tH35RdPSdE3wyx_7oH0g-1792402032.4317822-1.0.1.1-uplJ1J3NgkH2Bi2ROzZNC9z74UJxy4c_nnvAV2AxByTIXPuNAUz1AaZ9_RJhcf7OkVGII.tBzYLofEBiY36ZERLkZVJtOdTRyfauOxzYBuMas9i8ufSvY0proKcyfmZf; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:12 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:12 GMT
+2026-10-19 14:57:12,731 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2026-10-19 14:57:12,785 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2026-10-19 14:57:12,886 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=1hJD9mlEB6wM33ODOt_L5JpCpniMh19giCZN3GpbkU8-1792402032.581978-1.0.1.1-isFoqs.ddhFP5m07TLD3nkV5ATVOCUCYwwsY2QeTJt4Ntg5OV8AnPkoN.1AMHY71sQmcz7u2rgX5_.cecJhuZLSt43mGtHzdq4q.D.u_HYM0Q_6uKInQEYbXQnROE30J; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:12 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:12 GMT
+2026-10-19 14:57:12,889 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+2026-10-19 14:57:12,935 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+2026-10-19 14:57:13,019 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=uyJkHc3sn2sG.4hgfxfZyEf3ZFijHWt0AB3tRY4BCeU-1792402032.722212-1.0.1.1-rTae7BxMor_1ud0HBMpfN8mZzAHGwsyVkgeI4RMIFh861X8M18y8F5kf2nulzmVWY5GqGe21jtsX.qX9O0MeayZdvEVSP3fg9aqsQQDNEVg_7DEJBC5SXEcOzTozMDdQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:12 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:12 GMT
+2026-10-19 14:57:13,025 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2026-10-19 14:57:13,078 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2026-10-19 14:57:13,206 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=z8TzuRUxK.rQ7.3zUurjGqwpEe5p_hquSikio0SU.tg-1792402032.8963356-1.0.1.1-_T6YdxaG5VGsLbjoMm0hP13rmAVOAkWYWYzXt0RttMd8JeFJrARzCC1mJdemO0QKYAZ5xu_ZaQtoP7D6iy8DcSzJxgt8o_Fp0nxpmhk2VZ8HDCEEFPcfAdHGh1T0KIZa; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:12 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:12 GMT
+2026-10-19 14:57:13,213 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom
+2026-10-19 14:57:13,271 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom
+2026-10-19 14:57:13,375 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=CDUHwqGApGmiwIowYp2qb0CcIlkkukKoUMJPfNTkAek-1792402033.0724976-1.0.1.1-PvTDkbFxFjFzY3WGcYcS0FASwZqedmvSrgO9JH0QSkdPYgqxQKZVf3zh4kWZHeU1lRiFXmzhwX4j_VPu5y1xzQizeA0fKmIP80pM__Jgn1Wnftw0SPSE3BX0WR3knLM8; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:13 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:13 GMT
+2026-10-19 14:57:13,380 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api-parent/2.3.1/jaxb-api-parent-2.3.1.pom
+2026-10-19 14:57:13,439 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api-parent/2.3.1/jaxb-api-parent-2.3.1.pom
+2026-10-19 14:57:13,537 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=DSQ1oj_ilhXMhxAoY3STY.D8yjlNEZgJcmnQv5IVvVo-1792402033.2315705-1.0.1.1-hWvRLjGYuhTc6xotptEnqutmwufw2wASSeLOitMcVDQbHpwsorqQpQ.ewQ.HUhWsOmSE7GF0mlczytx4ylRSd57Kgj1g.wAzUQZLKDIXMNndbNUxKuCy3RWiJ8b0Hkev; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:13 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:13 GMT
+2026-10-19 14:57:13,540 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.pom
+2026-10-19 14:57:13,585 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.pom
+2026-10-19 14:57:13,666 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=YpUh99dZu7jeltEDaFgiqJ3RqDMxzhImRbkpz_YdDyk-1792402033.366663-1.0.1.1-rQoN8dwZYlo0xZiwFGU_.0CulX6RlEP_pSg0bxRLPotrFjhAKNGxkM.y4DffdK5v0D3Gab3p2co9_8w_JVSoZyvEuzFCSEFc9H1Q1fh3BYY0snqXKTMHu59QlOtCQhQh; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:13 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:13 GMT
+2026-10-19 14:57:13,670 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.1/jaxb-runtime-parent-2.3.1.pom
+2026-10-19 14:57:13,719 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.1/jaxb-runtime-parent-2.3.1.pom
+2026-10-19 14:57:13,858 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=q4w94V4Gb5LMzkWQvDXLtnCJPGmhieuDqeIOg1IJO8I-1792402033.547291-1.0.1.1-SUY.lZzGVHTZPfF79C6XS6vUNntF7ux2gHswU.czVkdTJBLxb9GJaiWAN1aBQI9T.rpHlp4n9hDU5S5aLtNdW0aVeBFfRiwTi3w_SioAm3P8FnikkeAzA8LbRqtphG8i; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:13 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:13 GMT
+2026-10-19 14:57:13,864 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.1/jaxb-parent-2.3.1.pom
+2026-10-19 14:57:13,946 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.1/jaxb-parent-2.3.1.pom
+2026-10-19 14:57:14,075 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=lHG46gg8bxfLJ_DF3OF57NnX8B6eerwOiSib5rIbBq8-1792402033.766789-1.0.1.1-tIdvuupJB8r0OKCnSmsq_xNYajZ1uJdbC0KifnJdeHk5U5pF8IhVjzbv9gV0VHKYiT9_ZY_Ub3Yn77IG.BNNmNF531coj4HENpGNtWRKnewkQF__LEQJXwlJ9pSd8x4l; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:13 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:13 GMT
+2026-10-19 14:57:14,078 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.1/jaxb-bom-ext-2.3.1.pom
+2026-10-19 14:57:14,127 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.1/jaxb-bom-ext-2.3.1.pom
+2026-10-19 14:57:14,246 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=1eASvyBND9PKjxn.YN4c8GaFH8REl118jEIUvLTVKxg-1792402033.9354184-1.0.1.1-eBpQlDcqG.42oHO4JMrbbV7IucXXUcGDHx53cY0RUNhqmuDDdjdNxfqV1nZQzEtvkMh0Ea1iW_cXpRnxmZVoT.qQrgnqfVvXbCg16cag8syK5w.ZbN7c0iF1F7rxAKBA; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:13 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:13 GMT
+2026-10-19 14:57:14,249 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.1/jaxb-bom-2.3.1.pom
+2026-10-19 14:57:14,307 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.1/jaxb-bom-2.3.1.pom
+2026-10-19 14:57:14,425 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=rErfQeZ_xnrpSau4t_jC8yv0UrlZubQ8aqsx8mRbHac-1792402034.1113389-1.0.1.1-WcUhMO1voWN8_FRxoCbK10HqbEM0jPQ01xd58b11viPyQ7VcTzgGIo78uUVSJKL73bZmirZ_KqAfRc9egCvkl1CokrWUH5XrY4JkoX6OnaNsJkjnr4rovbiy1PYmlqMj; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:14 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:14 GMT
+2026-10-19 14:57:14,428 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.pom
+2026-10-19 14:57:14,479 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.pom
+2026-10-19 14:57:14,583 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=HTFIWF4Q.utuE1CtBHoub3FLiV3fNLTx0ocBBCKFA1w-1792402034.2663345-1.0.1.1-6x8wBfVY1CaUOqGyWJW9wSaWA0crao3w6Pxuwd26mzIPxpIwcoi4G7.h9jJToOWCf6X7oCAFSlcS8gTsJKkKfnlyoGibaTKEfFdDBSPWT5KEDLbfEnk43v5oRf1Y2JaL; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:14 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:14 GMT
+2026-10-19 14:57:14,585 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.1/jaxb-txw-parent-2.3.1.pom
+2026-10-19 14:57:14,622 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.1/jaxb-txw-parent-2.3.1.pom
+2026-10-19 14:57:14,738 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=SY7DCx9Hc8k.WOtfJCHU9MEihZ1xG6QcY09fMWv4TyY-1792402034.4313316-1.0.1.1-3uaFtXZgRxpKx6xzS7Ef7UmpjbjdxOrv2i3VqUI6.sEAeWO1.67z6VKnJrbAnna2JgkI2EunUkDrikevIog1PPPYVFpRzAFFKqt7vxSFIrbyqFOVIPzfVhxaGACJc_Ur; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:14 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:14 GMT
+2026-10-19 14:57:14,744 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.pom
+2026-10-19 14:57:14,844 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.pom
+2026-10-19 14:57:14,969 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=pkUEljq15wjBZX9xTyaON8foJmziNCUMb4Hm.LPu8RY-1792402034.6517603-1.0.1.1-HWN_wb8f3Z8vjztXO6MDA3f7w9yYTRRpFSlcmvSDTi33RfkKfshvW1izcKCZ80XJpJwXLVxWcAFKOd_xA0_Sehp4QX7_6WkiLUloUorQaAhwuHH.OjXwcKvP2SJ_2Cca; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:14 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:14 GMT
+2026-10-19 14:57:14,975 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/3.0.7/istack-commons-3.0.7.pom
+2026-10-19 14:57:15,030 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/3.0.7/istack-commons-3.0.7.pom
+2026-10-19 14:57:15,175 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=LwAFtvu24bUDS5UVPlur5G_ETFxJR1kEiPLcNJHjRdE-1792402034.8613186-1.0.1.1-wx_1J.BAB7E7aHMa2xF1QnGeJuMzAJQebftbE_1G_obcAL7rRbbguy3wiQPJ1ENCaxm2io9LNLtyVCWavTdLZLdUjSEif8NC1d79oCPf4exrqvdRHlSALgnujjFW2o4U; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:14 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:14 GMT
+2026-10-19 14:57:15,179 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.pom
+2026-10-19 14:57:15,229 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.pom
+2026-10-19 14:57:15,331 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=IwhGJvhedxvtbngy.Zc3mNvbNeu6s0SxwnPR5T.6L44-1792402035.031305-1.0.1.1-Raf_LsbvzgkSODmIqMuGIEnLbKumvseTyXmySoK2VJ4MeP9oTPoZRO4Ei1i3Pv66QZ0r.wjxa6ehgKUcGshhy6My1USx.OkWR4BpExOoH.D.6gplzUizp6dX2HimzgpM; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:15 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:15 GMT
+2026-10-19 14:57:15,334 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.pom
+2026-10-19 14:57:15,381 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.pom
+2026-10-19 14:57:15,479 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=wgDtqWJot_Mp8BC36aZuMzCQTLWyCyu4xSItT7sMFQc-1792402035.1812375-1.0.1.1-qqV5AlOyDo6PzrnxAaulh6xz8PhbJR3CEE20hs5q1YwPZ7I_ZWE3TkKAEPvY7O8yA.AcgTpYzurVvOZ9eDaCgFog2_VOBPgjkJgxwinBifdgAut.Ysclg2VvC12NC7DK; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:15 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:15 GMT
+2026-10-19 14:57:15,485 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/1.2.15/fastinfoset-project-1.2.15.pom
+2026-10-19 14:57:15,530 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/1.2.15/fastinfoset-project-1.2.15.pom
+2026-10-19 14:57:15,669 [Worker-28: Building] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=aT4.7WlwTgVAUDxPShjNcRy.T5MnVqiBHSz.IuNdRf8-1792402035.3667786-1.0.1.1-ZV1H_fUpER.1s8vVXGgKVqbkRk3nSObJYPKNnbMuKrAu.qxjFEk_iM.8wGekmBas6cah36grNWxkTzPvr7ptAOYOLqUK2q4mk3R_FkNXWeupH72630pRNylyvy.3uh39; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:15 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:15 GMT
+2026-10-19 14:57:15,674 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar
+2026-10-19 14:57:17,017 [Worker-28: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar
+2026-10-19 14:57:17,095 [BasicRepositoryConnector-repo.maven.apache.org-1-0] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=2huJbJCWxyBTUKx_4.GBlbybq84zdyVvKhdciD1rQVY-1792402036.7910774-1.0.1.1-w4MO91FQ8tTN3v7zgnROsheDX6M.BtszoXYJsf04VpLlfqrWvelbZU73ZcF92yobLQw8L1Oy85IevNKgLcrNebb4yyOc3WPeLGt_Q2Ix6FMZ2P9w8Qo_68jBSYTsjFSt; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:16 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:16 GMT
+2026-10-19 14:57:17,098 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar
+2026-10-19 14:57:17,145 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar
+2026-10-19 14:57:17,193 [BasicRepositoryConnector-repo.maven.apache.org-1-2] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=1xnOGtDD1mHWUA78UD0cXjz.KH1MldICD94nfKDUrdc-1792402036.8959124-1.0.1.1-jy4rcIX9kDwXprYQJIUd0JPc6Z1YTFCVCT4yemCd2U9tcU91EC4WJIbwk1RS8YwgmdXK3cbYiRiHqC5KuKa3IRwuy8AQtsYWiIjsouhN7ItFx0myD78433l1EzbwkX0A; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:16 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:16 GMT
+2026-10-19 14:57:17,197 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar
+2026-10-19 14:57:17,220 [BasicRepositoryConnector-repo.maven.apache.org-1-1] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=LOhj4uAw2yx1SbX_fWeltji8azmEjYG62V2inJZkdtc-1792402036.9413307-1.0.1.1-nuOzSVu6U3E.yEX_5IwNqWelvZCLoIlKWx96UpVIxfXy5La0ERqo_u88xSy2AnLUH.H6oSnqpRg.Z0kWxPhs6yKwdTJzHihrLxTOnivvpdisK25zIVgDpxUOfzkW8aak; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:16 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:16 GMT
+2026-10-19 14:57:17,222 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar
+2026-10-19 14:57:17,236 [BasicRepositoryConnector-repo.maven.apache.org-1-0] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=ZKPoIdX1cje1vKOthS_Yc23FrVJLKWeKRuDdTFY7rgg-1792402036.9312263-1.0.1.1-HsQkrauzMfvu23.giarG1w9A95XRQhD62pjLaHqDrXxR51EE0nQdC6Cp.YHEZJaHPypaX5Whrwgnuz7L0nA6eeiJ3iGl2aCfWuZzyIMrCVxu0UkijylAYvH6QLZTq2PZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:16 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:16 GMT
+2026-10-19 14:57:17,239 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar
+2026-10-19 14:57:17,245 [BasicRepositoryConnector-repo.maven.apache.org-1-4] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=IBWXqEqBz2uAaO6uA_7TUseNjikeEe5SjN_pFal_FrE-1792402036.957246-1.0.1.1-k.jFaTrv7cBh2f1zksj98zq5zqlwk96TYnbrVHSuZVllGQty4lzTslnjGbApTGSycmiZBtSmYgTUudJ2NXNfFivTyJYSyiYlIZgDL..GLoe6xdu4symEWV3_yGdouOeT; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:16 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:16 GMT
+2026-10-19 14:57:17,248 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar
+2026-10-19 14:57:17,252 [BasicRepositoryConnector-repo.maven.apache.org-1-3] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=SMM1FEQOGxPIPW78LIDmiGkMzu_.hxKfCAe83Vph2ww-1792402036.9283838-1.0.1.1-7LDxZuHSPa2Q4YrS63H2UTH0Y_UpwiVsQ1zt7UoVjEuXDbsM7LaQmAkYG2Brx84AaZ1gabBRh5t8sMq34xhGQMse3oSgqWgDzBxmQLv1kq_AaomTk9XQQFMa3U3mfUzy; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:16 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:16 GMT
+2026-10-19 14:57:17,255 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar
+2026-10-19 14:57:17,300 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar
+2026-10-19 14:57:17,398 [BasicRepositoryConnector-repo.maven.apache.org-1-0] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=jVBisNTNj3BTIe9.t_zgUc2hYWK8pqCHvqZTXD8yDIE-1792402037.0683334-1.0.1.1-KcAPZBgg3MNjQucdcF.vG38hNlYACyOGRTnUXo8kmC3t1sIsC.bVOTHT8aSvXFPFLAArrsxcyyLDGOFOLm3DG0Ef1Tem93Kr28cfQfiNTfvn0bAlY24mR2m0OWtrwS.O; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:17 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:17 GMT
+2026-10-19 14:57:17,400 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar
+2026-10-19 14:57:17,400 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar
+2026-10-19 14:57:17,463 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar
+2026-10-19 14:57:17,490 [BasicRepositoryConnector-repo.maven.apache.org-1-1] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=SvUgG2L6WxTQvGrKotclA2qxxXpY3AyExRKn0WR.mr8-1792402037.2008688-1.0.1.1-cmJI_SxoSKxks0OP7GoyxqJfMieHsh97.ief.6YBW4lQpQQsyHQ7LVovYmyGnmCF5SF7sBJCgFuaL.SLrnDxGriS1kS6N2Tc6JsZE66H_kP1hzvg0qo7fDFb7PKPCJWu; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:17 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:17 GMT
+2026-10-19 14:57:17,492 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar
+2026-10-19 14:57:17,537 [BasicRepositoryConnector-repo.maven.apache.org-1-4] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=UFZsMw7lCYaxnanr_QKsWG0AGku.y.V9OcirYnFSkJE-1792402037.24224-1.0.1.1-irGM8IkVWf7mhm6H4.4ktanP0_pRvX7JVkczyPI.1gq71rpYa.Llva382yO9e6Qg9Ndz4hGWpQP18dtmi8OX8Gv7x2ERXoTK7VeYtNQzn06LjsK6ff0vpdIHQkQK7FcP; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:17 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:17 GMT
+2026-10-19 14:57:17,538 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar
+2026-10-19 14:57:17,541 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar
+2026-10-19 14:57:17,611 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar
+2026-10-19 14:57:17,626 [BasicRepositoryConnector-repo.maven.apache.org-1-0] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=LC6RSFutbP0.3PvCKRk_OR66IMXojGEv7CIEeH2bvVU-1792402037.3036149-1.0.1.1-KycEFwc_0M0Q8PrX_Mvu8tgzQvI7XbnOLHaYSDhXGS3d5GDTO12z1LYz6iHJv08R9OggJFFfTE0F7ucB80rk3zByPZZvqGTV..IVIEszlZF_aVgcySiMjuGMa7pWKm4y; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:17 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:17 GMT
+2026-10-19 14:57:17,628 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar
+2026-10-19 14:57:17,687 [BasicRepositoryConnector-repo.maven.apache.org-1-4] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=zStTSyMpmEENCn4e_CXTPdhd_BrtOnGVeeLtNPge0II-1792402037.397539-1.0.1.1-j3S7tslZVWo7yJPI0rHYFCmptPQW1ZZnxO3DC_A_Usf0ayPUFsWC0W_RyFSH4yOO_Mpb7hT8pd_FgIEP_czjodesjdsqrZbUn6ZtPtzr.GtTY9KXpPnopCkNHXpbfr0_; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:17 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:17 GMT
+2026-10-19 14:57:17,692 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar
+2026-10-19 14:57:17,854 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar
+2026-10-19 14:57:17,893 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar
+2026-10-19 14:57:17,965 [BasicRepositoryConnector-repo.maven.apache.org-1-1] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=DcKc2l24rjUT3UapmuLiK3PlrplACNLg9bwuOyWppx4-1792402037.6816783-1.0.1.1-6lXnxOnuRcPNiwPC1qp85DQ1F3j7KhVRV4eg0FRLwuapv35RK8d5ZvkaZ0Rfs5WTg0esCsF6slMv8bYC82oI4PuKNBtlIb82CKrgoy8eauyLKRXPXaajrvKj7lfu38ZY; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:17 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:17 GMT
+2026-10-19 14:57:17,968 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar
+2026-10-19 14:57:18,080 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar
+2026-10-19 14:57:18,301 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar
+2026-10-19 14:57:18,401 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar
+2026-10-19 14:57:19,128 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar
+2026-10-19 14:57:19,546 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:57:19,551 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 14:57:19,557 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:57:19,559 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:57:20,450 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=.qWAdocg0MSjZR7KnXSow5E1jABxnYff5q_bZX8O4vY-1792402040.1445105-1.0.1.1-D1Q0.bucERZ5jRXSkrmdmYIgXXsoaDLIKV7mSwDnTXuO6QZk.1K3jCr5PG0yhuUJMCKC8bah7_6gLPRmajMaerRgaDhD26XD0SLaqdcI8GPL85ysybWzyf6B8GF9bF38; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:20 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:20 GMT
+2026-10-19 14:57:20,472 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final-sources.jar
+2026-10-19 14:57:21,432 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:57:21,434 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:57:21,450 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:57:21,453 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 14:57:21,829 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final-sources.jar
+2026-10-19 14:57:21,837 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.6.15.Final
+2026-10-19 14:57:22,017 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=GlikvaOhcKWrLjyG.Pzd3QuQFRZ5dgz2y.nRCO05dbU-1792402041.694354-1.0.1.1-mQz6veiz5Q6vAQzsFa8kmS3lYr5c8CXF1YVQTvhpsHvoILkqVIp.Xg_uWFVTQutk1GQy67k51JjSWazvN5JEzRYmWj2kNB2fDWKANyDjM4E21vECvp_ELbvsmw68Rk7Y; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:21 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:21 GMT
+2026-10-19 14:57:22,019 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final-sources.jar
+2026-10-19 14:57:23,111 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final-sources.jar
+2026-10-19 14:57:23,126 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.4.3.Final
+2026-10-19 14:57:23,358 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=POrNV3bPMBwdLV4Lqvi0jq6TkVtOktw7LcZgXNc_p3E-1792402043.0064456-1.0.1.1-tF5aBIpKYzBhLEYR1MZGAMirAyIeIW3Mkwf7XHZXn4go5RF2q4sPFhX8Rv_HqMzMC2WPhLdoGoidTRqmWYGrLo.kt3Opl5gjoBbyf1WAfCowBT45IzXnvBluZePs7Qhr; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:23 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:23 GMT
+2026-10-19 14:57:23,361 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar
+2026-10-19 14:57:23,545 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar
+2026-10-19 14:57:23,553 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.persistence:javax.persistence-api:2.2
+2026-10-19 14:57:23,765 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=t__tSK9NndOuDFm1WGUKcGxKE25YLNZ1I8Fxnhyq_AE-1792402043.4772894-1.0.1.1-VMtNObARXkf9wbpfFaY.mGr9NO830BfvAZElMBGPTD4I5pU30q_CTCH88jM8LrGJp0FpF3EtjIV_OzpUlGEAycQ_60IXqvSZ66aWoxAOBbxwEOwcAYs4xYi4h2QO4Zvo; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:23 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:23 GMT
+2026-10-19 14:57:23,767 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18-sources.jar
+2026-10-19 14:57:24,189 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18-sources.jar
+2026-10-19 14:57:24,198 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.12.18
+2026-10-19 14:57:24,382 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=GXiVo2ztCh2_Z5KQdRHJOCrhd01Gc8OZYzhJ_.i5IL0-1792402044.062516-1.0.1.1-8uoxBYTFqy.KoO3tKo9gZdigQnrB6t61_.V.RGYvMK5rsD9t3Uygq9iEg64jJTO2JBtZyiBY.xVe01Hu.5tlXO1l693z84WYN8tObuYwzfgGo9uL4Z4L6PvW8g5SVtEk; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:24 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:24 GMT
+2026-10-19 14:57:24,384 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar
+2026-10-19 14:57:24,836 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar
+2026-10-19 14:57:24,845 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+2026-10-19 14:57:25,076 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=9iiRbaLG1k04vaUO0B8m1ehx2IOywKIH6w1oHZwYTCw-1792402044.7737482-1.0.1.1-Jcg8ZFC8T2mrmikIv6BxnDpGweBI2BZl.PQOL4Dv_EZYdHzjNmEImVJbl88FEDpdWCIcrVN0cIjhcC3qkkitEkmxbzH9COrzj932Aqt0Bah1Wcrgw0nUpiabKrIpoI.f; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:24 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:24 GMT
+2026-10-19 14:57:25,079 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final-sources.jar
+2026-10-19 14:57:25,233 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final-sources.jar
+2026-10-19 14:57:25,241 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.4.2.Final
+2026-10-19 14:57:25,410 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=wfNhsltio0dyENI1lkp.tVCdWt3vi0qfSG_36FrllbA-1792402045.1034381-1.0.1.1-LiWELP0ovngOluDENulJxB_ajEc1dDq7251pwyaDYfwI5qVqYcs7y0E4vMU75bATZoLMiFZdpkEWPr_6FUGsJJUP5RWRNJjK4udg.OE2xHV5FW3WlzHtD_E_3FBVtyhr; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:25 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:25 GMT
+2026-10-19 14:57:25,412 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+2026-10-19 14:57:25,518 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+2026-10-19 14:57:25,525 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:javax.activation-api:1.2.0
+2026-10-19 14:57:25,712 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=1DkENgVKjMhtlDyA6BMgLNC2c8zuKGLQMOn_MccpOMU-1792402045.4318373-1.0.1.1-.S4O8kCArpUxctG61MTAUaonBdQl5yRSulDn5cJDzGbuaM0n7_AsQxCUtiHarbsog.cqZlb1TF_TdsHSO.rzzMiCHnwHDvY0qesK5b96OW37hv9zdH2bLcEJOFurJioj; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:25 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:25 GMT
+2026-10-19 14:57:25,718 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar
+2026-10-19 14:57:25,888 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar
+2026-10-19 14:57:25,895 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.xml.bind:jaxb-api:2.3.1
+2026-10-19 14:57:26,081 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=e65gml0WHJMVrKghBTvhkqSfKmPIeVlWT9A3S5Q0WiQ-1792402045.7910867-1.0.1.1-G4A_mBBYLnQhIIIYCkNosvIGrIbnkmTRrC98J4_fBpR0kJ6vUNAwOzYMvUPCcZHXjKmtVgsrCAfIhNAaAqFoi_y_w5QPe_tKVt46KOHCvjSaG0cnkjxAvimgN6odEtF9; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:25 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:25 GMT
+2026-10-19 14:57:26,084 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1-sources.jar
+2026-10-19 14:57:27,181 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1-sources.jar
+2026-10-19 14:57:27,190 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:jaxb-runtime:2.3.1
+2026-10-19 14:57:27,389 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=zlfVryPszvU7wBbl6divHSnL9UW91QXT8fDeGUumQYU-1792402047.0879283-1.0.1.1-K4RCbqbXvoILZHH9Qa2a9ShkzNXgKPytZsE0Q7tNkxGC7WHf2IJ2B5spvsiwzjT0Jz0oYH2czBdVJD2uNML6n8ld68cSTQkFS3Lkinnr2VYb8D0I3vYVI8u_iKKktai5; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:27 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:27 GMT
+2026-10-19 14:57:27,403 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1-sources.jar
+2026-10-19 14:57:27,500 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1-sources.jar
+2026-10-19 14:57:27,515 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:txw2:2.3.1
+2026-10-19 14:57:27,712 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=Um6o.m0Fstba7966CYUP1UIvxYE0tFiPYC43TxvdX2o-1792402047.40793-1.0.1.1-VhBea5wtFEZxWtQayyurie29PaZHsV_VAVP8E2_I9LqFDVt0HCabkOM3LfrwkW8eMtuUjPdxbsm_pe4nYnCm1q.C.pqoc.e9XAxNHrANn2l0B1OOTDcK26CNhi_a6nUQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:27 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:27 GMT
+2026-10-19 14:57:27,727 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7-sources.jar
+2026-10-19 14:57:28,343 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7-sources.jar
+2026-10-19 14:57:28,351 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.istack:istack-commons-runtime:3.0.7
+2026-10-19 14:57:28,543 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=Y3.m0zRSs91BrAGZV9Ca5BwifKEpZmNtMQuApW7_58E-1792402048.2281582-1.0.1.1-9B4yImOTLjBd5E.lrtpwyw0OkhNgh3suG2MV1_v2pPSkap6mf1JVkhDn6Fbz1Nxcx5edzeJHlPnUSt2uxcD5G_yCWVE81LTJWroSc0wHJBNBjJd4W.Jsi9XQoXisU2zv; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:28 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:28 GMT
+2026-10-19 14:57:28,546 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8-sources.jar
+2026-10-19 14:57:29,062 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8-sources.jar
+2026-10-19 14:57:29,072 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.staxex:stax-ex:1.8
+2026-10-19 14:57:29,273 [Worker-29: Download sources and javadoc] WARN  o.a.h.c.p.ResponseProcessCookies - Invalid cookie header: "set-cookie: __cf_bm=zg1CSFFdicVFWMfyxmsLwJeHzVCs1qMND7z9uj8d6kc-1792402048.961833-1.0.1.1-mcZRkaLlWkqdq5VmgWI.sTFzWWMmyD3WxnTNfJVjNyIbMN8COQfZkhB1bUAfg.GauRfqwnBu6AbW4MBU9Or9LPGj0B3RPBYAKByQeuiGwZYNR.RyNpPICV5dek23qDwc; HttpOnly; SameSite=None; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Mon, 19 Oct 2026 09:57:28 GMT". Invalid 'expires' attribute: Mon, 19 Oct 2026 09:57:28 GMT
+2026-10-19 14:57:29,275 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15-sources.jar
+2026-10-19 14:57:29,455 [Worker-29: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15-sources.jar
+2026-10-19 14:57:29,464 [Worker-29: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.xml.fastinfoset:FastInfoset:1.2.15
+2026-10-19 14:58:10,435 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:58:10,437 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 14:58:10,442 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 14:58:10,445 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:00:58,807 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:00:58,812 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:00:58,817 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:00:58,818 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:04:07,425 [Worker-34: Creating project "SecondEx"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:SecondEx:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\SecondEx\pom.xml.
+2026-10-19 15:04:08,016 [Worker-34: Creating project "SecondEx"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SecondEx/src/main/java
+2026-10-19 15:04:08,016 [Worker-34: Creating project "SecondEx"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SecondEx/src/main/resources
+2026-10-19 15:04:08,017 [Worker-34: Creating project "SecondEx"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SecondEx/src/test/java
+2026-10-19 15:04:08,018 [Worker-34: Creating project "SecondEx"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SecondEx/src/test/resources
+2026-10-19 15:04:08,391 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:04:08,392 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:04:08,395 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:04:08,396 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:04:55,168 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:SecondEx:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\SecondEx\pom.xml.
+2026-10-19 15:04:55,565 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:04:55,566 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:04:55,569 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:04:55,571 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:04:56,704 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:04:56,705 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:04:56,707 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:04:56,708 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:06:11,562 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:06:11,564 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:06:11,569 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:06:11,570 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:06:13,034 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:06:13,037 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:06:13,040 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:06:13,040 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:06:50,268 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:06:50,270 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:06:50,273 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:06:50,280 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:07:50,694 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:07:50,696 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:07:50,702 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:07:50,704 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:08:25,866 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:08:25,867 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:08:25,873 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:08:25,874 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:09:53,020 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:09:53,022 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:09:53,025 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:09:53,027 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:11:50,225 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:11:50,226 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:11:50,230 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:11:50,231 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:12:16,036 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:12:16,038 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:12:16,044 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:12:16,046 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:14:47,450 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:14:47,452 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:14:47,459 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:14:47,461 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:18:39,071 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:18:39,074 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:18:39,080 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:18:39,082 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:19:02,791 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:19:02,794 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:19:02,800 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:19:02,802 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:20:09,287 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:20:09,289 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:20:09,293 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:20:09,295 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:21:25,141 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:21:25,143 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:21:25,147 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:21:25,149 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:21:46,752 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:21:46,753 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:21:46,755 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:21:46,757 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:22:22,098 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:22:22,100 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:22:22,103 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:22:22,106 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:23:02,143 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:23:02,145 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:23:02,154 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:23:02,156 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:23:09,271 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:23:09,273 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:23:09,280 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:23:09,284 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:24:48,562 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:24:48,572 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:24:48,579 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:24:48,582 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:26:15,303 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:26:15,305 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:26:15,308 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:26:15,310 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:30:36,240 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:30:36,244 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:30:36,250 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:30:36,251 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:38:08,012 [Worker-35: Creating project "CRUD"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:CRUD:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\CRUD\pom.xml.
+2026-10-19 15:38:08,681 [Worker-35: Creating project "CRUD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CRUD/src/main/java
+2026-10-19 15:38:08,682 [Worker-35: Creating project "CRUD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CRUD/src/main/resources
+2026-10-19 15:38:08,683 [Worker-35: Creating project "CRUD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CRUD/src/test/java
+2026-10-19 15:38:08,684 [Worker-35: Creating project "CRUD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CRUD/src/test/resources
+2026-10-19 15:38:09,119 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:38:09,127 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:38:09,132 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:38:09,137 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:38:39,747 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:38:39,749 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:38:39,754 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:38:39,756 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:38:49,421 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:38:49,423 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:38:49,431 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:38:49,433 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:38:56,834 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:38:56,836 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:38:56,840 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:38:56,842 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:39:36,144 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:39:36,146 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:39:36,153 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:39:36,155 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:39:51,805 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:39:51,808 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:39:51,811 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:39:51,813 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:40:09,890 [Worker-41: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:587)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:487)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:366)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:318)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n</project>... @23:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n</project>... @23:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2026-10-19 15:40:15,795 [Worker-48: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM V:\Daily Coding\hibernate\CRUD\pom.xml: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @24:11)  @ line 24, column 11
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM V:\Daily Coding\hibernate\CRUD\pom.xml: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @24:11)  @ line 24, column 11
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:935)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-10-19 15:40:15,877 [Worker-41: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:587)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:487)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:366)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:318)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @24:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @24:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2026-10-19 15:40:34,584 [Worker-47: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM V:\Daily Coding\hibernate\CRUD\pom.xml: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @23:11)  @ line 23, column 11
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM V:\Daily Coding\hibernate\CRUD\pom.xml: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @23:11)  @ line 23, column 11
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:935)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-10-19 15:40:34,679 [Worker-50: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:587)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:487)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:366)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:318)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @23:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @23:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2026-10-19 15:40:56,042 [Worker-35: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM V:\Daily Coding\hibernate\CRUD\pom.xml: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @23:11)  @ line 23, column 11
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM V:\Daily Coding\hibernate\CRUD\pom.xml: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @23:11)  @ line 23, column 11
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:935)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-10-19 15:40:56,140 [Worker-47: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:587)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:487)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:366)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:318)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @23:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </project> must match start tag name <dependencies> from line 8 (position: TEXT seen ...</dependency>\r\n        \r\n</project>... @23:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2026-10-19 15:41:25,401 [Worker-47: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:CRUD:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\CRUD\pom.xml.
+2026-10-19 15:41:25,769 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:41:25,772 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:41:25,778 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:41:25,787 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:41:26,960 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:41:26,961 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:41:26,966 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:41:26,967 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:41:31,609 [Worker-47: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vp:CRUD:0.0.1-SNAPSHOT @ V:\Daily Coding\hibernate\CRUD\pom.xml.
+2026-10-19 15:41:31,918 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:41:31,919 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-19 15:41:31,930 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:41:31,931 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:42:02,146 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:42:02,148 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:42:02,151 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:42:02,155 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:42:30,172 [Worker-48: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:42:30,174 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:42:30,177 [Worker-48: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:42:30,181 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:43:09,070 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:43:09,071 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:43:09,073 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:43:09,074 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:43:22,000 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:43:22,001 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:43:22,005 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:43:22,006 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:43:39,419 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:43:39,420 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:43:39,425 [Worker-51: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:43:39,427 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:49:30,360 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:49:30,364 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:49:30,369 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:49:30,371 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 15:50:13,515 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:50:13,517 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 15:50:13,521 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 15:50:13,522 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:00:06,038 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:00:06,045 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:00:06,050 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:00:06,051 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:01:11,602 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:01:11,607 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:01:11,611 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:01:11,614 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:01:38,353 [Worker-58: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:01:38,355 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:01:38,358 [Worker-58: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:01:38,360 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:13:24,227 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:13:24,243 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:13:24,251 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:13:24,253 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:13:47,279 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:13:47,281 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:13:47,287 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:13:47,289 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:14:29,454 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:14:29,455 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:14:29,460 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:14:29,462 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:16:56,596 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:16:56,598 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:16:56,602 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:16:56,603 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:17:17,373 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:17:17,375 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:17:17,381 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:17:17,382 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:18:43,516 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:18:43,518 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:18:43,522 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:18:43,524 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:18:46,653 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:18:46,655 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:18:46,661 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:18:46,663 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:19:20,802 [Worker-63: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:19:20,804 [Worker-63: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:19:20,808 [Worker-63: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:19:20,811 [Worker-63: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:19:41,603 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:19:41,605 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:19:41,613 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:19:41,614 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:19:43,926 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:19:43,927 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:19:43,931 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:19:43,932 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:19:54,155 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:19:54,156 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:19:54,159 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:19:54,160 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:20:18,525 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:20:18,527 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:20:18,545 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:20:18,546 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:20:43,070 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:20:43,072 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:20:43,074 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:20:43,077 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:21:00,714 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:21:00,716 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:21:00,719 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:21:00,720 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:22:49,534 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:22:49,536 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:22:49,540 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:22:49,541 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:22:54,392 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:22:54,394 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:22:54,398 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:22:54,399 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:23:03,955 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:23:03,957 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:23:03,961 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:23:03,963 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:23:45,953 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:23:45,957 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:23:45,960 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:23:45,962 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:24:30,983 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:24:30,985 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:24:30,992 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:24:30,994 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:26:18,352 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:26:18,355 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:26:18,360 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:26:18,362 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:26:31,667 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:26:31,668 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:26:31,671 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:26:31,672 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:27:37,617 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:27:37,619 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:27:37,627 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:27:37,629 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:30:33,122 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:30:33,124 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:30:33,128 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:30:33,129 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:31:09,155 [Worker-69: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:31:09,157 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:31:09,160 [Worker-69: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:31:09,164 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:33:06,858 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:33:06,860 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:33:06,864 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:33:06,868 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-10-19 16:34:48,786 [Worker-75: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:34:48,789 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-19 16:34:48,793 [Worker-75: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-10-19 16:34:48,795 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes

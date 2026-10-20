@@ -1,0 +1,17 @@
+package com.operations;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.config.HibernateConfig;
+
+public class DeleteStudent {
+
+	public static void main(String[] args) {
+
+		 SessionFactory sf = HibernateConfig.getSessionFactory();
+	        
+	        Session session = sf.openSession();
+	}
+
+}

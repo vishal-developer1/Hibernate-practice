@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+V:\Daily Coding\hibernate\.metadata\.plugins\org.eclipse.jdt.core
+2730298689.index
+1865797976.index
+2434042547.index
+1797649474.index

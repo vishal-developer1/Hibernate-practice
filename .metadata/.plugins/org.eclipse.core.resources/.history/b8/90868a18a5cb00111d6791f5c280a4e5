@@ -1,0 +1,19 @@
+package com.vp;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HibernateConfig {
+
+	public static SessionFactory getSessionFactory() {
+
+		Configuration cfg = new Configuration();
+		cfg.configure("hibernate.cfg.xml").addAnnotatedClass(Employee.class);
+
+		SessionFactory sf = cfg.buildSessionFactory();
+		
+		return sf;
+
+	}
+
+}
